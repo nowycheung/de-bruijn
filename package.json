@@ -1,0 +1,42 @@
+{
+    "name": "de-bruijn",
+    "version": "0.0.0",
+    "description": "generate de bruijn sequences",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "tap": "~0.4.0",
+        "tape": "~0.2.2"
+    },
+    "scripts": {
+        "test": "tap test/*.js"
+    },
+    "testling": {
+        "files": "test/*.js",
+        "browsers": [
+           "ie/6..latest",
+            "chrome/20..latest",
+            "firefox/10..latest",
+            "safari/latest",
+            "opera/11.0..latest",
+            "iphone/6", "ipad/6"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/substack/de-bruijn.git"
+    },
+    "homepage": "https://github.com/substack/de-bruijn",
+    "keywords": [
+        "de",
+        "bruijn",
+        "combination",
+        "locks"
+    ],
+    "author": {
+        "name": "James Halliday",
+        "email": "mail@substack.net",
+        "url": "http://substack.net"
+    },
+    "license": "MIT"
+}
