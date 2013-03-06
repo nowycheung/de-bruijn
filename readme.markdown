@@ -5,6 +5,10 @@ generate [DeBruijn sequences](https://en.wikipedia.org/wiki/De_Bruijn_sequence)
 You can use DeBruijn numbers to
 [crack combination locks](http://www.youtube.com/watch?v=iPLQgXUiU14).
 
+[![browser support](http://ci.testling.com/substack/de-bruijn.png)](http://ci.testling.com/substack/de-bruijn)
+
+[![build status](https://secure.travis-ci.org/substack/de-bruijn.png)](http://travis-ci.org/substack/de-bruijn)
+
 # example
 
 ``` js
