@@ -37,9 +37,9 @@ $ node example/seq.js 10 3
 var deBruijn = require('de-bruijn')
 ```
 
-## var xs = deBruin(k, n)
+## var xs = deBruijn(k, n)
 
-Return an array `xs` with the de Bruin sequence for `k` digits of order `n`.
+Return an array `xs` with the de Bruijn sequence for `k` digits of order `n`.
 
 # install
 
